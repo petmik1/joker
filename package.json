@@ -7,7 +7,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/petmik1/joker.git"
@@ -23,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/petmik1/joker/issues"
   },
-  "homepage": "https://github.com/petmik1/joker#readme"
+  "homepage": "https://github.com/petmik1/joker#readme",
+  "dependencies": {
+    "one-liner-joke": "^1.2.2"
+  }
 }
