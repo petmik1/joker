@@ -1,2 +1,3 @@
-import jokes from "one-liner-joke";
-console.log(jokes.getRandomJoke().body);
+import joker from "give-me-a-joke";
+
+joker.getRandomDadJoke(console.log);
