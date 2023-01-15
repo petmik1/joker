@@ -1,12 +1,15 @@
 {
-  "name": "petmik-example-joker",
-  "version": "0.0.5",
+
+  "name": "joker",
+  "version": "0.1.0",
   "description": "Application that tells jokes",
   "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,11 @@
   },
   "homepage": "https://github.com/petmik1/joker#readme",
   "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.4",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
     "prettier": "^2.8.2"
   },
   "dependencies": {
