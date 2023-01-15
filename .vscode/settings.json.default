@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": false,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.linkedEditing": true,
+    "explorer.confirmDelete": false,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/css",
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveServer.settings.CustomBrowser": "firefox",
+    "window.zoomLevel": -1,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "liveSassCompile.settings.autoprefix": [],
+    "editor.accessibilitySupport": "off",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+      "javascript"
+    ]
+}
