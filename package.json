@@ -1,5 +1,5 @@
 {
-  "name": "joker",
+  "name": "petmik-example-joker",
   "version": "0.0.5",
   "description": "Application that tells jokes",
   "main": "src/index.js",
